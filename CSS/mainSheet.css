@@ -6,10 +6,21 @@ body {
 
 }
 
+.box,
+.container {
+    border: 10px solid black;
+}
+
 .box {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 900px;
-    border: 10px solid black;
+}
+
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    text-align: center;
+    padding: 40px;
 }
