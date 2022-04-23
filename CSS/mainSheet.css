@@ -7,8 +7,9 @@ body {
 }
 
 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
     border: 10px solid black;
-    max-width: 300px;
-    padding: 20px;
-    margin: 0 auto;
 }
