@@ -7,26 +7,40 @@ body {
 }
 
 .box,
-.container {
+#container {
     border: 10px solid black;
 }
 
-.box {
+#container,
+#left {
+    font-family: 'Times New Roman', Times, san-serif;
+}
+
+.box,
+.box2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 900px;
 }
 
-.container {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 200%;
+#container {
     text-align: center;
+    font-size: 200%;
     padding: 40px;
+}
+
+#left {
+    text-align: left;
+    font-size: 100%;
+    max-width: 50%;
+}
+
+.box {
+    height: 900px;
 }
 
 ul,
 ol {
-    text-align: center;
+    text-align: left;
     list-style-position: inside;
 }
