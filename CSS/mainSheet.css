@@ -24,3 +24,9 @@ body {
     text-align: center;
     padding: 40px;
 }
+
+ul,
+ol {
+    text-align: center;
+    list-style-position: inside;
+}
