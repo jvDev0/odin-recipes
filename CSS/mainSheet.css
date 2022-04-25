@@ -46,6 +46,10 @@ body {
     width: 50%;
 }
 
+.center {
+    text-align: center;
+}
+
 ul,
 ol {
     text-align: left;
