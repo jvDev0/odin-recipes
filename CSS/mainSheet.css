@@ -6,11 +6,6 @@ body {
 
 }
 
-.box,
-#container {
-    border: 10px solid black;
-}
-
 #container,
 #left {
     font-family: 'Times New Roman', Times, san-serif;
