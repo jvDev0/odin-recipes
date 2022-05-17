@@ -26,9 +26,10 @@ body {
     align-items: center;
 }
 
-.ingredients {
+.ingredients,
+.steps {
     text-align: left;
-    max-width: 350px;
+    max-width: 560px;
 }
 
 .text {
