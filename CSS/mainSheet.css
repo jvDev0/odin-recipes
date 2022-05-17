@@ -19,6 +19,18 @@ body {
     font-weight: bold;
 }
 
+.summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+
 .summary h1 {
     font-size: 36px;
 }
