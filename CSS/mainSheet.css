@@ -23,9 +23,16 @@ a {
     text-decoration: none;
 }
 
-.container {}
+.container h4 {
+    font-size: 20px;
+    text-decoration: underline;
+}
 
-.summary {}
+ul,
+ol {
+    list-style-position: inside;
+}
+
 
 /*
 #container,
