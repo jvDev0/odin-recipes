@@ -19,6 +19,10 @@ body {
     font-weight: bold;
 }
 
+.summary h1 {
+    font-size: 36px;
+}
+
 a {
     text-decoration: none;
 }
