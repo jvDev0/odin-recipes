@@ -27,7 +27,8 @@ body {
 }
 
 .ingredients,
-.steps {
+.steps,
+.eat {
     text-align: left;
     max-width: 560px;
 }
